@@ -1,6 +1,6 @@
-# Assets-management-system-in-php
+# ManageX
 
-Asset management System in PHP
+Asset management System + Content Management System in PHP
 
 Asset management, refers to any system that monitors and maintains things of value to an entity or group. It may apply to both tangible assets such as buildings and to intangible concepts such as intellectual property and goodwill.
 Asset management is a systematic process of operating, maintaining, upgrading, and disposing of assets cost-effectively. Here Asset management means IT Asset, specially Hardwares, Softwares etc.
@@ -19,15 +19,12 @@ Software Requirement(any one)
 •	MAMP Server
 •	LAMP Server
 Installation Steps
-1. Download zip file and Unzip file on your local server.
-2. Put this file inside "c:/wamp/www/" .
-3. Database Configuration
-Open phpmyadmin
-Create Database named user.
-Import database user.sql from downloaded folder(inside database)
-4. Open Your browser put inside "http://localhost/assets-management-system/"
+1. Download and Install Xampp software from the internet (https://www.apachefriends.org/xampp-files/8.1.1/xampp-windows-x64-8.1.1-2-VS16-installer.exe)
+2. Start Xampp control panel on your machine and start "Apache" and "MySQL" (After Starting, don't close the xampp control panel).
+3. Place the AMS folder to "c://xampp/htdocs" folder.
+4. Now go to any web browser and start "http://localhost/phpmyadmin/"
+5. Create a new database named user and import users.sql file inside phpmyadmin.
+6. Create another new database named cms and import all 3 files (cms_category,cms_posts,cms_user) that are present in folder "CMS/database sql" inside phpmyadmin.
+7. Open the folder Website in the AMS folder and start Website.html file to start accessing the software.
 
 
-visit- https://projectworlds.in
-
-https://www.projectworlds.in/php-projects/asset-management-system-project-in-php/
